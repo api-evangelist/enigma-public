@@ -1,0 +1,32 @@
+aid: enigma-public
+name: Enigma Public
+description: "Broadest collection of public data"
+url: https://developers.enigma.com/docs
+specificationVersion: '0.20'
+created: '2026-05-28'
+modified: '2026-05-28'
+x-source: public-apis/public-apis
+x-category: "Open Data"
+x-tier: 3
+x-tier-reason: bulk-registered-from-public-apis
+tags:
+  - Open Data
+  - Public APIs
+apis:
+  - name: Enigma Public
+    description: "Broadest collection of public data"
+    humanURL: https://developers.enigma.com/docs
+    baseURL: https://developers.enigma.com/docs
+    tags:
+      - Open Data
+    properties:
+      - type: Documentation
+        url: https://developers.enigma.com/docs
+common:
+  - type: Website
+    url: https://developers.enigma.com/docs
+  - type: PublicAPIsListing
+    url: https://github.com/public-apis/public-apis
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
