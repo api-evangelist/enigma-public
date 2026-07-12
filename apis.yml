@@ -23,6 +23,10 @@ apis:
       - type: Documentation
         url: https://developers.enigma.com/docs
 common:
+  - type: VulnerabilityDisclosure
+    url: security/enigma-public-vulnerability-disclosure.yml
+  - type: DomainSecurity
+    url: security/enigma-public-domain-security.yml
   - type: Website
     url: https://developers.enigma.com/docs
   - type: PublicAPIsListing
