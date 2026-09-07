@@ -57,5 +57,5 @@ common:
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
-x-parent: enigma
+x-parent: enigma-analytics
 x-relationship: product
