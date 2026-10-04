@@ -39,7 +39,6 @@ apis:
   - name: Enigma Public
     description: "Broadest collection of public data"
     humanURL: https://developers.enigma.com/docs
-    baseURL: https://developers.enigma.com/docs
     tags:
       - Open Data
     properties:
