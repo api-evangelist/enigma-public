@@ -1,0 +1,67 @@
+edges:
+- partner_name: Databricks Marketplace
+  partner: databricks
+  partner_match: aggregator
+  type: marketplace
+  marketplace: databricks-marketplace
+  channel: distribution
+  relationship: distribution-channel
+  direction: third-party
+  evidence: https://marketplace.databricks.com/provider/d40f7797-9097-408c-aebc-6d8dccd3c0f3
+  category: data product listing
+  contract_reference:
+    register: Databricks Marketplace (marketplace.databricks.com/api/2.0/public-marketplace-providers + public-marketplace-listings)
+    spec_file: null
+    role: data-marketplace-seller
+    registered_name: Enigma
+    matched_domain: enigma.com
+    matched_by: domain+name-among-holders
+    listings: 10
+    sample_listings:
+    - Ecommerce Companies & Online Selling Signals
+    - New Business Digital Presence & First Review Signals (Annual)
+    - New Business Digital Presence & First Review Signals (Monthly)
+    - New Business Operating Locations Digital Presence & First Review Signals (Annual)
+    - New Business Operating Locations Digital Presence & First Review Signals (Monthly)
+    signal_note: 'participation: the provider lists data products on this marketplace; counts are context'
+    detected_by: sweep-data-marketplaces.py
+    detected: '2026-10-20'
+  detected_by: sweep-data-marketplaces.py
+  detected: '2026-10-20'
+- partner_name: AWS Data Exchange
+  partner: amazon-data-exchange
+  partner_match: aggregator
+  type: marketplace
+  marketplace: amazon-data-exchange-marketplace
+  channel: distribution
+  relationship: distribution-channel
+  direction: third-party
+  evidence: https://aws.amazon.com/marketplace/seller-profile?id=46c64acb-20c1-41fe-a495-a364f64d0083
+  category: data product listing
+  contract_reference:
+    register: AWS Data Exchange (AWS Marketplace discovery search, FULFILLMENT_OPTION_TYPE=DATA_EXCHANGE + seller-profile
+      sellerWebsiteUrl)
+    spec_file: null
+    role: data-marketplace-seller
+    registered_name: Enigma
+    matched_domain: enigma.com
+    matched_by: domain+name-among-holders
+    listings: 2
+    sample_listings:
+    - Small Business Administration (SBA) Loans (7a and 504)
+    - Workplace Inspections and Violations (OSHA) 1970-2020
+    signal_note: 'participation: the provider lists data products on this marketplace; counts are context'
+    detected_by: sweep-data-marketplaces.py
+    detected: '2026-10-20'
+  detected_by: sweep-data-marketplaces.py
+  detected: '2026-10-20'
+  publisher_verified:
+  - Deployed on AWS
+generated: '2026-10-20'
+method: searched
+source:
+- https://aws.amazon.com/marketplace/search/results?FULFILLMENT_OPTION_TYPE=DATA_EXCHANGE
+- https://marketplace.databricks.com/
+checked:
+- https://aws.amazon.com/marketplace/search/results?FULFILLMENT_OPTION_TYPE=DATA_EXCHANGE
+- https://marketplace.databricks.com/
